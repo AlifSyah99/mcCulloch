@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Tugas Jst</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1> JST mcCulloch-pitts</h1>
+    <h3> Data Input</h3>
+    <div class="card">
+      <div class="row header">
+        <div class="col">
+          <h3 class="text--label"> Opsi</h3>
+          <select name="logika" id="select--logika">
+            <option value="and">AND</option>
+            <option value="or">OR</option>
+            <option value="xor">XOR</option>
+          </select>
+        </div>
+        <div class="col">
+          <h3 class="text--label"> Bobot</h3>
+          <input type="text" class="textfield" id="textfield--bobot">
+        </div>
+        <div class="col">
+          <h3 class="text--label"> Threshold</h3>
+          <input type="text" class="textfield" id="textfield--threshold">
+        </div>
+      </div>
+      <div class="row">
+        <h3 class="text--header">x1</h3>
+        <input type="text" class="textfield" id="tf-x1">
+        <input type="text" class="textfield" id="tf-x1">
+        <input type="text" class="textfield" id="tf-x1">
+        <input type="text" class="textfield" id="tf-x1">
+      </div>
+      <div class="row">
+        <h3 class="text--header">x2</h3>
+        <input type="text" class="textfield" id="tf-x2">
+        <input type="text" class="textfield" id="tf-x2">
+        <input type="text" class="textfield" id="tf-x2">
+        <input type="text" class="textfield" id="tf-x2">
+      </div>
+      <div class="row">
+        <button id="reset">reset</button>
+        <button id="latih">latih</button>
+      </div>
+
+    </div>
+    <div style="border-bottom: 1px solid black;">
+      <h3>Hasil</h3>
+    </div>
+    <div class="container--hasil hidden">
+
+      <table border="1">
+        <thead>
+          <th>Y</th>
+          <th>Pelatihan</th>
+          <th>Keluaran</th>
+          <th>Hasil</th>
+        </thead>
+        <tbody class="isi">
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="footer">
+    <h5>Alif Firmansyah</h5>
+    <h5>201943501696</h5>
+  </div>
+</body>
+<script src="js/app.js"></script>
+
+</html>

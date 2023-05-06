@@ -1,0 +1,88 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  box-sizing: border-box; 
+}
+body{
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding:30px;
+  flex-direction: column;
+}
+.footer{
+  margin-top: auto;
+}
+.container{
+  padding:1.2rem;
+  width:50vw;
+  background-color: #faf7fa;
+  border-radius: 15px;
+  border: 1px solid;
+}
+h1{
+  margin-top : 1.2rem;
+  font-size: 1.2rem;
+}
+.card{
+  margin-top: .2rem;
+  display: flex;
+  flex-direction: column;
+ 
+  width: 100%;
+}
+h3{
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+.row{
+  margin-top: 1rem;
+  width: 100%;
+}
+.row .text--header{
+ display: inline-block;
+ margin-top: 0;
+}
+.row.header{
+  display: flex;
+  align-items: center;
+  gap:.5rem;
+}
+
+.textfield{
+  width: 55px;
+  height: 25px;
+}
+.text--label{
+  font-size: .8rem;
+  display: inline-block;
+  margin-right: .3rem;
+}
+select{
+  padding: .2rem;
+  height: 25px;
+  font-size: .8rem;
+  cursor: pointer;
+}
+
+button{
+  display: inline-block;
+  padding:.2rem 1rem;
+  cursor: pointer;
+}
+.container--hasil{
+  margin-top: 1rem;
+}
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+td{
+text-align: center  ;
+}
+
+.hidden{
+  display: none;
+}
